@@ -1,0 +1,12 @@
+.formTarefas-adicionar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border: black solid 3px;
+
+    width: 36em;
+    height: 38em;
+
+}

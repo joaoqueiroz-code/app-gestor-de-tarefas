@@ -1,0 +1,40 @@
+.formTarefas-input {
+    display: block;
+    border: black solid 1px;
+    width: 30.8em;
+    height: 2em;
+    padding-left:1em;
+
+}
+
+.formTarefas-select {
+    display: block;
+    border: black solid 1px;
+    width: 32em;
+    height: 2.4em;
+}
+
+.formTarefas-textarea {
+    display: block;
+    border: black solid 1px;
+    max-width: 423px;
+    padding-top: 0.5em;
+    padding-left: 1em;
+
+
+}
+
+
+
+.formTarefas-btn {
+    color:white;
+    background-color: black;
+    width: 14em;
+    height: 3.5em;
+
+}
+
+.formTarefas-btn:active {
+    border: white solid 1px;
+
+}
