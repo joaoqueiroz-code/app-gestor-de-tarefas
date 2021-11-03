@@ -1,0 +1,64 @@
+.formTarefas-anexar {
+    position: absolute;
+    top:8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+
+    width: 28em;
+    height: 18em;
+
+    color: black;
+    border: black solid 3px;
+    background-color: rgb(48, 48, 48);
+
+ 
+
+    transform: translateX(925%);
+
+}
+
+.formTarefas-anexar--open {
+    transform: translateX(0);
+    z-index: 2;
+}
+
+.nav-btn {
+    background-color: rgb(255, 255, 255);
+    width: 32em;
+    height: 4em;
+    border: rgb(0, 0, 0) solid 1px;
+
+}
+
+.nav-btn:active {
+    border: rgb(140, 140, 140) solid 1px;
+
+}
+
+.confirmarNav-btn--open {
+    content: confirmar;
+
+
+}
+
+.navPessoas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 27em;
+    height: 2em;
+    border: black 1px solid;
+
+}
+
+.navPessoas li {
+    margin-right: 1em;
+
+}
+
