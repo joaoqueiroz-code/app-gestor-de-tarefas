@@ -1,0 +1,16 @@
+.conteudo {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    position: relative;
+	width: 940px;
+
+ 
+	margin: 0 auto;
+
+
+
+}
