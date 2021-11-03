@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+
+        <title>ADICIONAR TAREFAS</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/conteudo.css">
+        <link rel="stylesheet" href="css/formTarefas/formTarefas.css">
+        <link rel="stylesheet" href="css/formTarefas/formTarefas-adicionar.css">
+        <link rel="stylesheet" href="css/formTarefas/formTarefas-anexar.css">
+        <link rel="stylesheet" href="css/tarefas.css">
+
+    </head>
+
+    <body>
+
+        <main class="conteudo">
+
+            <form action="" class="formTarefas-adicionar">
+
+                    <label for="tarefa">Tarefa:
+                        <input type="text" name="tarefa" class="formTarefas-input" id="inputTarefa">
+                    </label>
+
+                    <label for="atarefado">Pessoa:
+                        <input type="text" name="atarefado" class="formTarefas-input" id="inputPessoa">
+                    </label>
+
+                    <label for="prioridade">Prioridade:
+                        <select name="prioridade" class="formTarefas-select" id="inputPrioridade">
+
+                            <option value="Alta">Alta</option>
+                            <option value="Normal" selected>Normal</option>
+                            <option value="Baixa">Baixa</option>
+    
+                        </select>
+                    </label>
+                    
+                    <label for="descricao">Descrição:
+                        <textarea cols="50" rows="10" style="resize: none" name="descricao" class="formTarefas-textarea" id="inputDescricao"></textarea>
+                    </label>
+                    
+                    <button class="formTarefas-btn"  id="btnAdicionar">Enviar tarefas</button>
+
+            </form>
+
+            <section id="tarefasSeccao">
+
+            </section>
+
+        </main>
+
+        <script src="js/adicionarTarefas.js"></script>
+
+    </body>
+
+
+
+</html>
